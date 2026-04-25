@@ -1,0 +1,18 @@
+# QIIME2 artifacts (large, not needed in repo)
+*.qza
+*.qzv
+
+# extracted QZV folders
+*_view/
+*_extracted/
+*/index.html
+*/data/
+*/assets/
+
+# system / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# logs / temp
+*.log
