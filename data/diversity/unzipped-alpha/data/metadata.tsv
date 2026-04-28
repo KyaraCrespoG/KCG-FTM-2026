@@ -1,0 +1,79 @@
+id	sequencing-run	sample-type	treatment-group	subject-id	administration-route	gender	shannon_entropy
+#q2:types	categorical	categorical	categorical	categorical	categorical	categorical	numeric
+b1e40907.45fc.4d81.ad81.c58ed3d91e1f	run-1	swab	treatment	B101	Oral	m	2.15826118431233
+c784e063.e586.43cb.a602.9f2e2ae420d1	run-1	swab	treatment	B101	Oral	m	3.98543718875094
+104e5902.1c3e.417f.bb22.124bfca61a61	run-1	swab	treatment	B101	Oral	m	4.54408405850263
+7c66ff62.02e7.458d.a55d.8d07d15a9315	run-1	swab	treatment	B101	Oral	m	4.69352663948589
+0bb5e24a.aa34.48e7.b1f9.e761ac2dc6b4	run-1	swab	treatment	B101	Oral	m	4.6524847335683
+b447da2d.f44f.4ced.ab9e.b560736484fb	run-1	swab	treatment	B101	Oral	m	5.30141631690756
+60345a80.4df2.4a0b.b7af.e2370c607aec	run-1	swab	treatment	B101	Oral	m	4.78839595482874
+44ef59fb.3279.46dc.a113.c762aa889eb5	run-1	swab	treatment	B101	Oral	m	4.81908551130674
+21a4ec1a.bcae.4e10.be82.66328d2dad4f	run-1	swab	treatment	B101	Oral	m	3.63802900715229
+c61b44a5.ae92.4202.9d0c.b4507197e456	run-1	stool	treatment	B103	Rectal	f	2.80285331680783
+59d06f37.995b.40a5.91a8.c825d1a7ca6f	run-1	stool	treatment	B103	Rectal	f	4.4141325023358
+124dc1db.9029.41c6.afff.b73a692e19b1	run-1	stool	treatment	B103	Rectal	f	5.35329360547037
+1fe57dd4.58b3.4fde.b8a1.f73db5614909	run-1	swab	treatment	B103	Rectal	f	4.67945392760829
+e6dcb4be.68c0.473f.a9cb.412345eeb749	run-1	swab	treatment	B103	Rectal	f	2.40485306575716
+d7c251b8.15e9.4266.bcd8.6e6c6a453c11	run-1	swab	treatment	B103	Rectal	f	3.34676833170025
+65ba3877.ad29.4afc.aaec.bcf3544f5f75	run-1	swab	treatment	B103	Rectal	f	4.66256056325022
+72a8ae87.94ea.41e3.b43c.b5337f6a0548	run-1	swab	treatment	B103	Rectal	f	2.5030275645831
+35a8aef7.4bb0.4cab.bc0e.3576bb706571	run-1	swab	treatment	B103	Rectal	f	2.92175340686483
+df4b001a.f4cd.4b71.8ebe.a68b8df2cb80	run-1	swab	treatment	B103	Rectal	f	4.59569101300075
+101c02ce.4f8d.4394.83a3.0c406831d934	run-1	swab	treatment	B103	Rectal	f	4.55124625734909
+8c4ae03d.dd8c.44ec.8336.15e0b031d97f	run-1	swab	treatment	B103	Rectal	f	3.97173728056111
+b49ad14d.07c8.454d.82ec.c6fb9c7bcc36	run-1	swab	treatment	B105	Oral	m	2.38705370774732
+11c70d46.e0a4.4797.ad7b.3677fe93d73b	run-1	swab	treatment	B105	Oral	m	2.63623092141149
+c8b831af.2e3c.4aaa.83cf.b66c3016e0f3	run-1	swab	treatment	B105	Oral	m	4.18301903180113
+ec91140e.0862.4ece.bb4a.d114f4c42bdb	run-1	swab	treatment	B105	Oral	m	4.25824798829637
+e94edb86.8fe0.42b8.a255.c48d4551405b	run-1	swab	treatment	B105	Oral	m	3.89840962758642
+fae97eb5.3264.4211.8ea3.823f547a6f0c	run-1	swab	treatment	B105	Oral	m	2.96148096959088
+e4485061.924a.4f09.9d7e.bfefc780d1a8	run-1	swab	treatment	B105	Oral	m	4.21228570352086
+2a1b28ba.f47e.44b6.bfd7.d3e41e762db3	run-1	swab	treatment	B105	Oral	m	4.63340602599181
+d6223d2e.0d62.4658.8eec.ccc9d4ee86a3	run-1	swab	treatment	B105	Oral	m	5.393317300022
+90120dc2.ad2e.4916.a660.633ba4b6a7b8	run-1	stool	treatment	B107	Oral	m	4.97779824657977
+20aa4aaf.8242.48d9.a225.e9f6b3e8938c	run-1	swab	treatment	B107	Oral	m	2.15446201772847
+17f96e8a.dc68.4aef.98db.8aaaab702e33	run-1	swab	treatment	B107	Oral	m	4.55310397143265
+61c3930c.61c4.4c82.8475.7a10ccaeb71c	run-1	swab	treatment	B107	Oral	m	3.20346085105078
+ac7d2af0.9c75.4a32.bb2b.e79380ab8c61	run-1	swab	treatment	B107	Oral	m	4.15652290137757
+b612f67e.eea8.4e03.81b7.034dbfc44669	run-1	swab	treatment	B107	Oral	m	4.74368815083367
+36b313f7.8a44.4bdc.8034.82260a83d7b9	run-1	swab	treatment	B107	Oral	m	5.35842931258638
+6ecca0ea.049c.41ec.b324.404e504d44c0	run-1	swab	treatment	B107	Oral	m	4.94293653734761
+55b26af1.31a6.4606.8b99.bf415a009311	run-1	swab	treatment	B107	Oral	m	4.14592260588831
+e5574c01.3027.458d.8f96.d68b66aae40b	run-1	swab	treatment	B109	Rectal	m	3.48202406162845
+dfc347e3.eed7.4592.95eb.374724230326	run-1	swab	treatment	B109	Rectal	m	3.04681165925114
+4b9ad407.fc2f.4463.bccc.0cf3a28d05f6	run-1	swab	treatment	B109	Rectal	m	4.45601845638089
+c18a0367.8148.4450.bf5a.507b6fe30c73	run-1	swab	treatment	B109	Rectal	m	4.53565380087491
+15129220.6eda.44ad.9511.be0f6e027f5d	run-1	swab	treatment	B109	Rectal	m	4.10929641692144
+183645ce.cacd.4744.8440.de4eb377dfea	run-1	swab	treatment	B109	Rectal	m	5.01980351119965
+37f1087f.ae31.4fde.b96b.4b6c1d61351e	run-1	swab	treatment	B109	Rectal	m	4.01458619582119
+a6108908.5ef9.47ef.8f57.b055bc6ee7aa	run-1	swab	treatment	B109	Rectal	m	3.09556872997226
+884e1ddb.8d8b.45cf.8dba.16387520872c	run-1	swab	treatment	B109	Rectal	m	3.77569844527796
+8d2746d9.68e2.42e3.acfc.092603ad6ec1	run-1	fmt-material	donor	BBT2014-00035			3.42042362764954
+aef9e193.1f8c.429e.bfdf.38bb59235e7d	run-2	swab	treatment	B101	Oral	m	2.14121469938918
+14c94c5e.aaf2.414f.a72f.74ccc134b294	run-2	swab	treatment	B103	Rectal	f	5.00641228764097
+cfe0d2d7.c78b.4092.b923.3322b4312c6d	run-2	stool	treatment	B105	Oral	m	5.5597751810595
+cfc37a70.9ba6.4d25.b541.4c0ff9d1bfeb	run-2	stool	treatment	B109	Rectal	m	5.74575053425464
+08ea0c6b.7a30.4074.bbf6.557480fc5285	run-2	swab	control	B141		m	5.00569054924233
+e9494e22.99d6.4e10.868f.208832eb3104	run-2	swab	control	B141		m	4.90469389831569
+1230c3fd.efa4.4ad9.8f01.499141965b11	run-2	swab	control	B141		m	4.87244019805751
+28e84479.bd9f.4d55.bb03.1411b71bdc9b	run-2	swab	control	B141		m	4.99509964512323
+1037164d.a836.4ebe.bf98.92294a0b60ab	run-2	swab	control	B143		m	3.27158455438417
+c2072c98.e9a0.4af2.8cc1.c03be62710d8	run-2	swab	control	B143		m	5.40148342107439
+7af6e763.ab6a.49e9.ac6d.5da1c74c54bd	run-2	swab	control	B143		m	4.5416547528334
+55f8d345.8251.43a1.ab05.c9418f6fefd7	run-2	swab	control	B143		m	2.98529568775418
+4f2698fd.665f.4ed1.be97.ffc1529e21b0	run-2	swab	control	B143		m	4.5496528584999
+ea68ac1a.53e3.4523.924f.32ca1d2ac988	run-2	swab	control	B143		m	1.70819008532605
+81a16ca3.6299.40f0.ae7b.fe2dd2ac4243	run-2	swab	control	B143		m	4.1430903717284
+fa4e5dcc.7b0a.4fb1.989d.b19aec98e047	run-2	swab	control	B145		f	3.6267746580152
+230994e3.5682.432f.b4e4.454ca1901e0f	run-2	swab	control	B145		f	4.7473519501319
+0476f5aa.a4f4.4835.ada1.4e72fb601e0a	run-2	swab	control	B145		f	5.38255769326528
+3b2b88b4.90b1.44d2.a015.e80e723e996f	run-2	swab	control	B145		f	4.96444696056782
+d8f4038a.7576.4fd3.89c3.60a3f6bc06c0	run-2	swab	control	B145		f	4.0329839313335
+1654ccec.557a.40f3.b4d9.b263f9e2ad4e	run-2	swab	control	B147		m	5.13983195586986
+84120710.dd14.4def.90b4.c34cbcedd38e	run-2	swab	control	B147		m	3.59981023239097
+ce5c847c.452d.46fc.96d9.ba2ff164a5ab	run-2	swab	control	B147		m	4.15550064560759
+fadb8582.a342.46ba.8926.98ff97240824	run-2	swab	control	B147		m	5.12419200886574
+fa6fda2b.4a99.4231.9325.0d74d8ae451c	run-2	swab	control	B159		m	4.83287303449998
+ad0865f4.0719.4c22.9a3e.1d5ec2f9ad4c	run-2	swab	control	B159		m	3.86827446229367
+2adb40fd.6824.44f2.b71f.dc73c9f82b16	run-2	swab	control	B159		m	3.20879074257255
+0eb12bd1.4548.4004.8dcd.1a71de8b1df5	run-2	swab	control	B159		m	4.42513916291855
