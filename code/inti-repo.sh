@@ -13,3 +13,4 @@ mkdir -p data/dada2/combined-sets
 mkdir -p data/dada2/combined-sets/table-summary
 mkdir -p data/dada2/combined-sets/table-summary/summary_view
 mkdir -p data/classify-results
+mkdir -p plots/pngs

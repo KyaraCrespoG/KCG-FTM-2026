@@ -24,7 +24,7 @@ Figure 1. Taxa barplot at phylum level created using QIIME2 taxa barplot program
 ### Average Phylum Composition by Treatment Group
 ![Grouped phylum heatmap](plots/grouped-phylum-heatmap.png)
 
-Figure 2. Heatmap created using QIIME2 heatmap program with data taken from grouped-phylum-table.qza and grouped-treatment-metadata.tsv files. 
+Figure 2. Heatmap created using QIIME2 heatmap program with data taken from grouped-phylum-table.qza and grouped-treatment-metadata.tsv files. Distinct abundance patterns across groups suggests treatment-associated differences in microbial composition.
 
 ### Alpha Diversity (Shannon Index)
 ![Shannon diversity](plots/alpha-barplot-treatmentgroups.png)

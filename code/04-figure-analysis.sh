@@ -46,3 +46,46 @@ unzip data/diversity/bray_curtis_emperor.qzv -d data/diversity/unzipped-beta
 ## open index.html files within unzipped-alpha and unzipped-beta with "live server" extension to visualize HTML
 ## select "treatment group" for alpha plot
 ## screenshot alpha and beta plots, and upload to plots/
+
+## collapse feature table to phylum level
+
+qiime taxa collapse \
+    --i-table data/dada2/combined-sets/table.qza \
+    --i-taxonomy data/classify-results/taxonomy.qza \
+    --p-level 2 \
+    --o-collapsed-table data/dada2/combined-sets/phylum-table.qza
+
+## convert phylum table to relative abundance
+
+qiime feature-table relative-frequency \
+    --i-table data/dada2/combined-sets/phylum-table.qza \
+    --o-relative-frequency-table data/dada2/combined-sets/phylum-rel-table.qza
+
+## group samples by treatment group
+
+qiime feature-table group \
+    --i-table data/dada2/combined-sets/phylum-rel-table.qza \
+    --p-axis sample \
+    --m-metadata-file data/metadata/sample-metadata.tsv \
+    --m-metadata-column treatment-group \
+    --p-mode mean-ceiling \
+    --o-grouped-table data/dada2/combined-sets/grouped-phylum-table.qza
+
+## create grouped metadata file
+
+printf '#SampleID\ttreatment_group\ndonor\tdonor\ntreatment\ttreatment\ncontrol\tcontrol\n' > data/metadata/grouped-treatment-metadata.tsv
+
+## generate heatmap visualization
+
+qiime feature-table heatmap \
+    --i-table data/dada2/combined-sets/grouped-phylum-table.qza \
+    --m-sample-metadata-file data/metadata/grouped-treatment-metadata.tsv \
+    --m-sample-metadata-column treatment_group \
+    --o-visualization plots/grouped-phylum-heatmap.qzv
+
+## unzip heatmat file
+
+unzip plots/grouped-phylum-heatmap.qzv -d plots/unzipped-grouped-heatmap
+
+## open index.html files within unzippedgrouped-heatmap with "live server" extension to visualize HTML
+## screenshot heatmap and upload to plots/
