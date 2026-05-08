@@ -1,0 +1,17 @@
+# Constructed from biom file
+#OTU ID	treatment	donor	control
+d__Bacteria;p__Bacteroidota	1330.0	551.0	799.0
+d__Bacteria;p__Bacillota	1422.0	1188.0	1310.0
+d__Bacteria;p__Actinomycetota	83.0	17.0	54.0
+d__Bacteria;p__Pseudomonadota	1457.0	528.0	826.0
+d__Bacteria;p__Fusobacteriota	3.0	0.0	1.0
+d__Bacteria;p__Thermodesulfobacteriota	34.0	5.0	7.0
+d__Bacteria;p__Cyanobacteriota	1.0	1.0	1.0
+d__Bacteria;p__Myxococcota	1.0	0.0	0.0
+Unassigned;__	3.0	0.0	3.0
+d__Bacteria;p__Campylobacterota	1.0	0.0	1.0
+d__Bacteria;p__Verrucomicrobiota	102.0	3.0	67.0
+d__Archaea;p__Methanobacteriota	0.0	0.0	19.0
+d__Bacteria;__	1.0	0.0	1.0
+d__Bacteria;p__Bdellovibrionota	1.0	0.0	0.0
+d__Bacteria;p__Spirochaetota	1.0	0.0	0.0

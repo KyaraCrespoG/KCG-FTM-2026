@@ -1,0 +1,5 @@
+SampleID	treatment_group
+#q2:types	categorical
+donor	donor
+treatment	treatment
+control	control
