@@ -18,12 +18,13 @@ To analyze the data and assign taxonomy, we used a SILVA 138 99% OUT classifier 
 Figure 1. Taxa barplot at phylum level created using QIIME2 taxa barplot program with data taken from table.qza and taxonomy.qza files. At the phylum level, a few dominant groups account for most relative abundance, but microbial composition was still varied across samples.
 
 ### Average Phylum Composition by Treatment Group
-
+![Grouped phylum heatmap](plots/grouped-phylum-heatmap.png)
+Figure 2. Heatmap created using QIIME2 heatmap program with data taken from grouped-phylum-table.qza and grouped-treatment-metadata.tsv files. 
 
 ### Alpha Diversity (Shannon Index)
 ![Shannon diversity](plots/alpha-barplot-treatmentgroups.png)
-Figure 2. Alpha diversity (Shannon index) created using QIIME2 diversity and alpha-group-significance programs with data taken from table.qza file. Shannon diversity varied across samples, indicating differences in within-sample microbial diversity.
+Figure 3. Alpha diversity (Shannon index) created using QIIME2 diversity and alpha-group-significance programs with data taken from table.qza file. Shannon diversity varied across samples, indicating differences in within-sample microbial diversity.
 
 ### Bray-Curtis PCoA
 ![Bray-Curtis PCoA](plots/bray-curtis-pcoa.png)
-Figure 3. Bray-Curtis PCoA created using QIIME2 diversity and Emperor programs with data taken from table.qza file. PCoA analysis showed separation between samples, indicating differences in microbial community composition.
+Figure 4. Bray-Curtis PCoA created using QIIME2 diversity and Emperor programs with data taken from table.qza file. PCoA analysis showed separation between samples, indicating differences in microbial community composition.
