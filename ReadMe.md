@@ -16,6 +16,13 @@ Sequencing data was obtained from https://docs.qiime2.org/2024.10/tutorials/fmt/
 To analyze the data and assign taxonomy, we used a SILVA 138 99% OUT classifier for the V4/V5 (515F/806R) region along with QIIME’s classifier program (feature-classifier classify-sklearn). We used QIIME’s taxa barplot program (taxa barplot) to visualize the abundance and distribution of taxa across different samples. Next, we built phylogenetic trees using QIIME’s phylogetic tree and alignment programs (phylogeny align-to-tree-mafft-fasttree) and analyzed their diversity metrics using QIIME’s diversity core metrics program (diversity core-metrics-phylogenetic). Lastly, the core diversity metrics were used to generate alpha and beta diversity plots using QIIME’s alpha group significance program and Emperor PCoA from Bray-Curtis program, respectively.
 
 ## Findings
+
+QIIME2 was used to analyze sequencing data from a fecal matter transfer study to analyze the microbial composition and diversity of the microbiota of autistic children with gastrointestinal issues. Taxonomic composition, alpha and beta diversity, and grouped phylum-level abundance patterns were examined.
+
+According to Figure 1, samples were dominated by several major bacterial phyla, including Bacillota, Bacteroidota, and Pseudomonadota. Relative abundances varied between samples, indicating compositional differences across treatment groups. The heatmap in Figure 2 shows several  differences in phyla abundance between groups, thus suggesting microbial composition changed depending on treatment. Differences in alpha diversity between groups in Figure 3 suggest variation in microbial abundance and diversity across experimental conditions. Meanwhile, clustering patterns observed in the PcoA plot in Figure 4 suggest that microbial communities differed between treatment groups, although some overlap remained between samples.
+
+Overall, the analyses provided measurable differences in microbiome composition and diversity across groups. Additionally, taxonomic composition and grouped phylum abundance patterns suggest microbial variation associated with treatment.
+
 ### Taxonomic Composition
 ![Taxa barplot at phylum level](plots/taxa-barplot-level2.png)
 
